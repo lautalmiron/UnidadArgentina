@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+    <head>
+      <meta http-equiv="content-type" content="html" charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Lautaro Almiron">
+      <meta name="descripcion" content="empresa que busca la unidad">
+      <meta name="keywords" content="unidad, programacion, web">
+      <meta name="copyright" content="Unidad Marca Registrada">
+      <meta name="language" content="es">
+      <meta name="revisit-after" content="1 month">
+      <meta name="robots" content="index">
+      <meta name="refresh" content="15">
+      <link rel="icon" type="svg" href="unidad.svg">
+      <link href="styles.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <title>Unidad</title>
+    </head>
+    <body>
+        <header>
+                <a href="index.html" id="inicio"><img src="Portada.png" class="logo">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#inicio"><img src="icon/hogar.svg" class="icon_image">Principal</a></li>
+                <li><a href="#noticias"><img src="news.svg" class="icon_image">Noticias</a></li>
+                <li><a href="#media"><img src="icon/camara.svg" class="icon_image">Multimedia</a></li>
+                <li><a href="#ayuda"><img src="icon/ayuda.svg" class="icon_image">Ayuda</a></li>
+            </ul>
+        </nav>
+        <div class="articulos">
+        <section>
+            <article class="articulo1">
+                <h1>¿Quiénes somos?</h1>
+                <h2>Unidos somos mejores</h2>
+                <img src="group.svg">
+                <p>Somos una organización <b>sin fines de lucro</b> que busca ayudar a todo Argentino y Argentina que quiere o necesita una mano, más en momentos dificiles como los que nos encontramos.</p> 
+                <p>Nuestro compromiso es siempre estar disponible las 24 hs del dia por cualquier cosa que necesite una persona, por eso es muy necesario un acompañamiento continuo para todos y todas.</p>
+                <p>Nuestra organizacion fue creada en el <b>año 2001</b> en plena crisis económica Argentina desde ese momento estamos totalmente dispuestos en ayudar a cualquier persona que este en crisis.</p>
+                <p>Si necesitas ayuda no dudes en contactarnos por <a href="#ayuda"><b>Nuestro formulario.</b></a></p>
+            </article>
+            <article class="articulo2">
+                <h1>Caja de comentarios</h1><input type="text" placeholder="Escribe un comentario">
+                <input type="submit" value="Enviar">
+            </article>
+        </section>
+    </div>
+    <aside>
+        <article class="aside_1">
+            <h1>Quiénes integran en el grupo</h1>
+            <h2>Lee para saberlo</h2>
+            <p>En el grupo integran muchisimas personas, desde la comunidad LGBTIQ hasta el grupo de feminismo. Esta gran prulalidad de voces nos permite ingresar a cada hogar en el cual la organización es totalmente necesaria</p>
+            <p>Si necesitas ayuda en lo que sea nosotros estaremos aquí disponible para lo que necesites asi que cuando creas necesario llama a nuestra linea o contacta en el formulario que te damos a continuacion<br><a href="#"> Ver mas...</a></p>
+        </article>
+        <article class="aside_2">
+            <h1>¿Quiéres ser parte?</h1>
+            <h2>Si estas interesado en participar, siga leyendo</h2>
+            <p>Para participar de la organización solamente tienes que contactarte a nuestro numero de telefono, o cualquier red social. Agradecemos cada persona que quiere cooperar y ayudarnos</p>
+            <p>Entre más seamos mejor es para esta comunidad tan hermosa<a href="#"> Ver mas...</a></p>
+        </article>
+    </aside>
+    <div class="noticias" id="noticias">
+        <h1>Noticias</h1>
+        <img src="News-bro.svg">
+        <div class="noticiasseccion">
+            <div class="noticia1">
+                <h1>Nuevos encuentros virtuales</h1>
+                <h2>Leer el articulo para saber más</h2>
+                <p>Sabias que por la cuarentena estamos haciendo encuentros virtuales para apoyarnos en este dificil momento. Contactanos por las redes sociales para conocer los horarios. Ademas...<a href="#">Ver más</a></p>
+            </div>
+            <br>
+            <div class="noticia2">
+                <h1>Cumplimos 20 años</h1>
+                <h2>Y queremos festejarlo con vos</h2>
+                <p>Gracias por todos estos años hermosos que nos hicieron pasar. Desde que emepzamos no nos arrepentimos de nada, miles de historias y miles de momentos hermosos hemos pasa...<a href="#">Ver más</a</p>
+            </div>
+        </div>
+    </div>
+    <div class="media" id="media">
+        <h1>Multimedia</h1>
+        <img src="Video.svg">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hXEtX4Uiqa4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ayuda" id="ayuda">
+        <h1>Ayuda</h1>
+        <h2>Si necesitas contactarte con nosotros</h2>
+        <h2>Ingresa aquí tus datos</h2>
+        <form class="formulario">
+            <p class="textoform">Nombre:<p><input type="text" placeholder="Nombre completo" class="inputhelp"></p></p>
+            <p class="textoform">Apellido:</p> <input type="text" placeholder="Apellido completo">
+            <p class="textoform">Género:</p>
+            <p class="textoform"><select name="Genero" class="generposeleccion"></p>
+               <option value="1">Masculino</option> 
+               <option value="2">Femenino</option> 
+               <option value="3">No Binarix</option>
+               <option value="10">Otro</option> 
+            </select>
+            <p class="textoform">Fecha de nacimento:</p><input type="date">
+            <p class="textoform">Mail:</p> <input type="email" placeholder="Ingresa tu mail">
+            <input type="submit" value="Enviar" class="enviarayuda">
+        </form>
+        <img src="Problem solving-rafiki.svg">
+    </div>
+
+        <footer>
+            <div class="footer_left">
+                <a href="https://www.instagram.com/"><img src="icon/instagram.svg"></a>
+                <a href="https://www.facebook.com/"><img src="icon/facebook.svg"></a>
+            </div>
+            <div class="footer_right">
+                <a href="https://www.twitter.com/"><img src="icon/twitter.svg"></a>
+                <a href="https://www.youtube.com/"><img src="icon/youtube.svg"></a>
+            </div>
+            <p>Todos los derechos reservados para Unidad Argentina 2020 ©</p>
+        </footer>
+        </body>
+</html>
